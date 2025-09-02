@@ -1,0 +1,602 @@
+* {
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.mainnavbar {
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: black;
+    /* animation-name: demo;
+    animation-duration: 1s;
+    animation-delay: 1s; */
+}
+
+.navbar1 {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+
+.navbarcontainer1 {
+    width: 90%;
+    height: 40px;
+    position: relative;
+    margin: auto;
+}
+
+.navbarcontainer1 ul {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navbarcontainer1 ul li {
+    padding: 0px 15px;
+    list-style: none;
+}
+
+.navbarcontainer1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbarcontainer1 ul li a .ri-map-pin-2-fill::after {
+    content: ' Stores';
+    font-family: prompt;
+    font-size: 15px;
+}
+
+.navbarcontainer1 ul li a .ri-user-fill::after {
+    content: ' Login / Register';
+    font-family: prompt;
+    font-size: 15px;
+}
+
+.navbarcontainer1 ul li a i {
+    font-size: 20px;
+
+}
+
+.navbar2 {
+    width: 100%;
+    height: 60px;
+    bottom: 0px;
+    background-color: black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.navbarcontainer2 {
+    width: 90%;
+    height: 60px;
+    position: relative;
+    margin: auto;
+    display: flex;
+}
+
+.navbarcontainer2 .logo {
+    width: 25%;
+    height: 57px;
+}
+
+.navbarcontainer2 .logo a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarcontainer2 .logo a p 
+{
+   font-family: anton;
+   font-size: 40px;
+   color: white;
+}
+
+
+.navbarcontainer2 .menu {
+    width: 50%;
+    height: 60px;
+}
+
+.navbarcontainer2 .menu ul {
+    width: 50%;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarcontainer2 .menu ul li {
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.navbarcontainer2 .menu ul li::after {
+    content: '';
+    display: block;
+    width: 0%;
+    margin: auto;
+    border-bottom: 2px solid white;
+    transition: 0.3s;
+}
+
+.navbarcontainer2 .menu ul li:hover::after {
+    width: 70%;
+    margin: auto;
+    border-bottom: 2px solid white;
+}
+
+.navbarcontainer2 .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: anton;
+}
+
+.navbarcontainer2 .searchbar {
+    width: 25%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbarcontainer2 .searchbar input {
+    width: 80%;
+    height: 40px;
+    background-image: url('Images/search.svg');
+    background-repeat: no-repeat;
+    background-position: 8px 7px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: Prompt;
+    padding: 12px 20px 12px 40px;
+    outline: none;
+}
+
+.banner
+{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 0px solid white;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+.banner video
+{
+    width: 100%;
+    height: 500px;
+}
+.banner .p1
+{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    font-family: prompt;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner .p2
+{
+    position: absolute;
+    width: 100%;
+    top: 170px;
+    font-family: prompt;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner .p3
+{
+    position: absolute;
+    width: 100%;
+    top: 255px;
+    font-family: prompt;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner .p4
+{
+    position: absolute;
+    width: 100%;
+    bottom: 100px;
+    font-family: anton;
+    font-size: 50px;
+    letter-spacing: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.categoriesbanner
+{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.categoriescontainer
+{
+    width: 90%;
+    height: 98px;
+    margin: auto;
+    display: flex;
+}
+.line1
+{
+    width: 45%;
+    height: 98px;
+    display: flex;
+    align-items: center;
+}
+.line1 hr
+{
+    width: 100%;
+    color: white;
+}
+.text
+{
+    width: 10%;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text p
+{
+    width: 100%;
+    font-family: anton;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.line2
+{
+    width: 45%;
+    height: 98px;
+    display: flex;
+    align-items: center;
+}
+.line2 hr
+{
+    width: 100%;
+    color: white;
+}
+
+
+.pcbanner
+{
+    width: 100%;
+    height: 800px;
+    align-content: center;
+    background-color: black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.pccontainer
+{
+    width: 90%;
+    height: 760px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+.pccontainer .box
+{
+    position: relative;
+    width: 24.60%;
+    height: 370px;
+    border-radius: 10px;
+    filter: grayscale(100);
+    transition: 0.5s;
+}
+.pccontainer .box:hover
+{
+    width: 24.60%;
+    height: 370px;
+    border-radius: 10px;
+    filter: grayscale(0);
+}
+.pccontainer .box a
+{
+    text-decoration: none;
+}
+.pccontainer .box a img
+{
+    width: 100%;
+    height: 370px;
+    border: 2px solid white;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.pccontainer .box a p
+{
+    width: 100%;
+    position: absolute;
+    top: 140px;
+    font-size: 20px;
+    font-family: anton;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.pccontainer .box a .p2
+{
+    width: 100%;
+    position: absolute;
+    top: 155px;
+    font-size: 20px;
+    font-family: anton;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+.pcbanner2
+{
+    width: 100%;
+    height: 1500px;
+    align-content: center;
+    background-color: black;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.pccontainer2
+{
+    width: 90%;
+    height: 1440px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.pccontainer2 .box
+{
+    width: 24.70%;
+    height: 476px;
+    border-radius: 10px;
+    position: relative;
+    filter: grayscale(100);
+    transition: 0.5s;
+}
+.pccontainer2 .box:hover
+{
+    width: 24.70%;
+    height: 476px;
+    border-radius: 10px;
+    position: relative;
+    filter: grayscale(0);
+}
+.pccontainer2 .box a
+{
+    text-decoration: none;
+}
+.pccontainer2 .box a video
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.pccontainer2 .box a img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.pccontainer2 .box a p
+{
+    width: 100%;
+    font-family: anton;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 210px;
+}
+.pccontainer2 .box a .p2
+{
+    width: 100%;
+    font-family: anton;
+    font-size: 20px;
+    color: darkred;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 210px;
+}
+
+
+.footerbanner
+{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    border-top: 1px solid white;
+    border-bottom: 3px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+.footercontainer
+{
+    width: 90%;
+    height: 497px;
+    margin: auto;
+}
+.footercontainer .services
+{
+    width: 100%;
+    height: 298px;
+    display: flex;
+    justify-content: space-between;
+}
+.footercontainer .services .box
+{
+    width: 24%;
+    height: 298px;
+    position: relative;
+}
+.footercontainer .services .box .heading
+{
+    position: absolute;
+    top: 75px;
+    font-size: 30px;
+    font-family: anton;
+    text-transform: uppercase;
+    color: white;
+}
+.footercontainer .services .box a
+{
+    position: absolute;
+    top: 125px;
+    text-decoration: none;
+}
+.footercontainer .services .box a p
+{
+    font-family: prompt;
+    color: white;
+}
+.footercontainer .socials
+{
+    width: 100%;
+    height: 199px;
+}
+.socials .categoriescontainer
+{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+}
+.socials .categoriescontainer .line1
+{
+    width: 45%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.socials .categoriescontainer .line1 hr
+{
+    width: 100%;
+    color: white;
+}
+.socials .categoriescontainer .text
+{
+    width: 10%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials .categoriescontainer .text p
+{
+    width: 100%;
+    font-family: anton;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.socials .categoriescontainer .line2
+{
+    width: 45%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.socials .categoriescontainer .line2 hr
+{
+    width: 100%;
+    color: white;
+}
+.socials .links
+{
+    width: 100%;
+    height: 159px;
+}
+.socials .links .linksicon
+{
+    width: 100%;
+    height: 79.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials .links .linksicon a
+{
+    text-decoration: none;
+}
+.socials .links .linksicon a i
+{
+    color: white;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.5s;
+}
+.socials .links .linksicon a i:hover
+{
+    color: darkred;
+    font-size: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.socials .links .copyrighttext
+{
+    width: 100%;
+    height: 79.5px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+.socials .links .copyrighttext p
+{
+    color: white;
+    font-size: 15px;
+    font-family: prompt;
+}
