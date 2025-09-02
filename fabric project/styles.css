@@ -1,0 +1,1169 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('Images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .navbar
+{
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+.banner .navbar .logo
+{
+    width: 20%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .navbar .logo a
+{
+    text-decoration: none;
+}
+.banner .navbar .logo a h1
+{
+    font-family: horizon;
+    font-size: 40px;
+    color: white;
+}
+.banner .navbar .menu
+{
+    width: 60%;
+    height: 75px;
+}
+.banner .navbar .menu ul
+{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .navbar .menu ul li
+{
+    list-style: none;
+    padding: 0px 10px;
+    color: white;
+    font-size: 18px;
+    font-family: montserrat;
+}
+.banner .navbar .menu ul li:hover a
+{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.banner .navbar .menu ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    transition: 0.2s;
+}
+.banner .navbar .button
+{
+    width: 20%;
+    height: 75px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.banner .navbar .button a i
+{
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.banner .navbar .button a
+{
+    text-decoration: none;
+}
+.banner .navbar .button a p
+{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: montserrat;
+    font-size: 18px;
+    margin-right: 20px;
+    transition: 0.2s;
+}
+.banner .navbar .button a p:hover
+{
+    color: grey;
+}
+
+.banner .bannercontainer
+{
+    width: 90%;
+    height: 525px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+.banner .bannercontainer h1
+{
+    font-family: horizon;
+    font-size: 40px;
+    color: white;
+    width: 60%;
+    text-align: end;
+}
+.banner .bannercontainer a
+{
+    text-decoration: none;
+}
+.banner .bannercontainer a .p1
+{
+    position: absolute;
+    right: 15%;
+}
+.banner .bannercontainer a .p1, .p2
+{
+    font-family: montserrat;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.banner .bannercontainer a .p1:hover
+{
+    color: grey;
+}
+.banner .bannercontainer a .p2:hover
+{
+    color: grey;
+}
+
+
+
+.aubanner
+{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.aubanner .aucontainer
+{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aubanner .aucontainer .photos
+{
+    position: relative;
+    width: 50%;
+    height: 500px;
+}
+.aubanner .aucontainer .photos .box1
+{
+    position: absolute;
+    left: 450px;
+    bottom: 0px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url('Images/au1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aubanner .aucontainer .photos .box2
+{
+    position: absolute;
+    left: 200px;
+    width: 350px;
+    height: 350px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url('Images/au2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aubanner .aucontainer .photos .box3
+{
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url('Images/au3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aubanner .aucontainer .photos .box4
+{
+    position: absolute;
+    right: 70px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url('Images/au4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 5px black;
+}
+.aubanner .aucontainer .info
+{
+    position: relative;
+    width: 50%;
+    height: 500px;
+}
+.aubanner .aucontainer .info .heading
+{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+.aubanner .aucontainer .info .title
+{
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    font-family: horizon;
+    font-size: 30px;
+    color: white;
+}
+.aubanner .aucontainer .info .text
+{
+    position: absolute;
+    width: 85%;
+    left: 10px;
+    top: 150px;
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+}
+.aubanner .aucontainer .info .title2
+{
+    position: absolute;
+    left: 70px;
+    top: 260px;
+    font-family: horizon;
+    font-size: 30px;
+    color: white;
+}
+.aubanner .aucontainer .info .title2text
+{
+    position: absolute;
+    width: 85%;
+    left: 10px;
+    top: 310px;
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+}
+.aubanner .aucontainer .info img
+{
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    width: 10%;
+    height: 100px;
+}
+.aubanner .aucontainer .info .text1
+{
+    position: absolute;
+    left: 300px;
+    top: 250px;
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+}
+.aubanner .aucontainer .info .text2
+{
+    position: absolute;
+    left: 300px;
+    top: 286px;
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+}
+.aubanner .aucontainer .info .text3
+{
+    position: absolute;
+    left: 300px;
+    top: 325px;
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+}
+.aubanner .aucontainer .info a
+{
+    text-decoration: none;
+}
+.aubanner .aucontainer .info a .button
+{
+    position: absolute;
+    left: 10px;
+    top: 380px;
+    width: 20%;
+    font-family: montserrat;
+    font-size: 18px;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.aubanner .aucontainer .info a .button:hover
+{
+    color: grey;
+}
+
+
+
+.sbanner
+{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.sbanner .scontainer
+{
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    position: relative;
+}
+.sbanner .scontainer .heading
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 10px;
+}
+.sbanner .scontainer h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: horizon;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 40px;
+}
+.sbanner .scontainer .boxcontainer
+{
+    width: 90%;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 293px);
+    grid-template-rows: 450px;
+    gap: 20px;
+}
+.sbanner .scontainer .boxcontainer .box
+{
+    width: 293px;
+    height: 400px;
+    background-color: darkred;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.2s;
+}
+.sbanner .scontainer .boxcontainer .box:hover
+{
+    background-color: red;
+}
+.sbanner .scontainer .boxcontainer .box img
+{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 5px;
+    left: 20px;
+    top: 20px;
+}
+.sbanner .scontainer .boxcontainer .box h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: horizon;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 140px;
+}
+.sbanner .scontainer .boxcontainer .box .desc
+{
+    width: 90%;
+    font-family: montserrat;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 170px;
+}
+.sbanner .scontainer .boxcontainer .box a
+{
+    text-decoration: none;
+}
+.sbanner .scontainer .boxcontainer .box a .link
+{
+    width: 90%;
+    font-family: montserrat;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 340px;
+}
+
+
+
+.sbanner2
+{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.sbanner2 .scontainer
+{
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    position: relative;
+}
+.sbanner2 .scontainer .heading
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 10px;
+}
+.sbanner2 .scontainer h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: horizon;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 40px;
+}
+.sbanner2 .scontainer .boxcontainer
+{
+    width: 90%;
+    height: 400px;
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 398px);
+    grid-template-rows: 450px;
+    gap: 20px;
+}
+.sbanner2 .scontainer .boxcontainer .box
+{
+    width: 398px;
+    height: 400px;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.2s;
+}
+.sbanner2 .scontainer .boxcontainer .box2
+{
+    width: 398px;
+    height: 400px;
+    background-color: darkred;
+    border-radius: 5px;
+    position: relative;
+    transition: 0.2s;
+}
+.sbanner2 .scontainer .boxcontainer .box .text1
+{
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box h1
+{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    font-family: horizon;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sbanner2 .scontainer .boxcontainer .box .text2
+{
+    position: absolute;
+    width: 100%;
+    top: 160px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box .line1
+{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 190px;
+    font-family: montserrat;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box .text3
+{
+    position: absolute;
+    width: 100%;
+    top: 210px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box .line2
+{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 240px;
+    font-family: montserrat;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box .text4
+{
+    position: absolute;
+    width: 100%;
+    top: 260px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box .line3
+{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 290px;
+    font-family: montserrat;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box .text6
+{
+    position: absolute;
+    width: 40%;
+    left: 120px;
+    top: 320px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.2s;
+}
+.sbanner2 .scontainer .boxcontainer .box .text6:hover
+{
+    color: grey;
+}
+.sbanner2 .scontainer .boxcontainer .box2 .text1
+{
+    position: absolute;
+    width: 100%;
+    top: 20px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box2 h1
+{
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    font-family: horizon;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sbanner2 .scontainer .boxcontainer .box2 .text2
+{
+    position: absolute;
+    width: 100%;
+    top: 140px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box2 .line1
+{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 170px;
+    font-family: montserrat;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box2 .text3
+{
+    position: absolute;
+    width: 100%;
+    top: 190px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box2 .line2
+{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 220px;
+    font-family: montserrat;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box2 .text4
+{
+    position: absolute;
+    width: 100%;
+    top: 240px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box2 .line3
+{
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 270px;
+    font-family: montserrat;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box2 .text5
+{
+    position: absolute;
+    width: 100%;
+    top: 290px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.sbanner2 .scontainer .boxcontainer .box2 .text6
+{
+    position: absolute;
+    width: 40%;
+    left: 120px;
+    top: 340px;
+    font-family: montserrat;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.2s;
+}
+.sbanner2 .scontainer .boxcontainer .box2 .text6:hover
+{
+    color: grey;
+}
+
+
+footer
+{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+footer .container
+{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container .box1
+{
+    width: 24%;
+    height: 400px;
+    position: relative;
+}
+footer .container .box2
+{
+    width: 24%;
+    height: 400px;
+    position: relative;
+}
+footer .container .box3
+{
+    width: 24%;
+    height: 400px;
+    position: relative;
+}
+footer .container .box4
+{
+    width: 24%;
+    height: 400px;
+    position: relative;
+}
+footer .container .box1 h1
+{
+    font-family: horizon;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+footer .container .box1 p
+{
+    position: absolute;
+    left: 0px;
+    top: 60px;
+    width: 100%;
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+}
+footer .container .box1 a
+{
+    text-decoration: none;
+}
+footer .container .box1 a .ri-facebook-line
+{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 45px;
+    top: 350px;
+}
+footer .container .box1 a .ri-instagram-line
+{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 115px;
+    top: 350px;
+}
+footer .container .box1 a .ri-youtube-line
+{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 190px;
+    top: 350px;
+}
+footer .container .box1 a .ri-linkedin-line
+{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    right: 45px;
+    top: 350px;
+}
+
+footer .container .box2 .text1
+{
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+footer .container .box2 i
+{
+    color: darkred;
+}
+footer .container .box2 .ri-map-pin-line
+{
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    font-size: 18px;
+}
+footer .container .box2 .text2
+{
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    width: 60%;
+    position: absolute;
+    left: 45px;
+    top: 60px;
+}
+footer .container .box2 .line1
+{
+    width: 85%;
+    color: white;
+    position: absolute;
+    left: 7.5%;
+    top: 120px;
+}
+footer .container .box2 .ri-mail-line
+{
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    font-size: 18px;
+}
+footer .container .box2 .text3
+{
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    width: 60%;
+    position: absolute;
+    left: 45px;
+    top: 150px;
+}
+footer .container .box2 .line2
+{
+    width: 85%;
+    color: white;
+    position: absolute;
+    left: 7.5%;
+    top: 200px;
+}
+footer .container .box2 .ri-phone-line
+{
+    position: absolute;
+    left: 20px;
+    top: 230px;
+    font-size: 18px;
+}
+footer .container .box2 .text4
+{
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    width: 60%;
+    position: absolute;
+    left: 45px;
+    top: 230px;
+}
+footer .container .box2 .line3
+{
+    width: 85%;
+    color: white;
+    position: absolute;
+    left: 7.5%;
+    top: 280px;
+}
+footer .container .box2 .ri-time-line
+{
+    position: absolute;
+    left: 20px;
+    top: 310px;
+    font-size: 18px;
+}
+footer .container .box2 .text5
+{
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    width: 60%;
+    position: absolute;
+    left: 45px;
+    top: 310px;
+}
+
+footer .container .box3 .text1
+{
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+footer .container .box3 .text2
+{
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    width: 60%;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+footer .container .box3 .line1
+{
+    width: 85%;
+    color: white;
+    position: absolute;
+    left: 7.5%;
+    top: 120px;
+}
+footer .container .box3 .text3
+{
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    width: 60%;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+}
+footer .container .box3 .line2
+{
+    width: 85%;
+    color: white;
+    position: absolute;
+    left: 7.5%;
+    top: 200px;
+}
+footer .container .box3 .text4
+{
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    width: 60%;
+    position: absolute;
+    left: 20px;
+    top: 230px;
+}
+footer .container .box3 .line3
+{
+    width: 85%;
+    color: white;
+    position: absolute;
+    left: 7.5%;
+    top: 280px;
+}
+footer .container .box3 .text5
+{
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    width: 60%;
+    position: absolute;
+    left: 20px;
+    top: 310px;
+}
+
+footer .container .box4 p
+{
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+footer .container .box4 .images
+{
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    left: 5%;
+    top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,92px);
+    grid-template-rows: repeat(2, 145px);
+    gap: 10px;
+}
+footer .container .box4 .images .box1
+{
+    width: 92px;
+    height: 145px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url('Images/g1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .container .box4 .images .box2
+{
+    width: 92px;
+    height: 145px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url('Images/g2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .container .box4 .images .box3
+{
+    width: 92px;
+    height: 145px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url('Images/g3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .container .box4 .images .box4
+{
+    width: 92px;
+    height: 145px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url('Images/g4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .container .box4 .images .box5
+{
+    width: 92px;
+    height: 145px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url('Images/g5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .container .box4 .images .box6
+{
+    width: 92px;
+    height: 145px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: url('Images/g6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .container .box4 .images .box1 i
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 18px;
+    color: white;
+}
+footer .container .box4 .images .box2 i
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 18px;
+    color: white;
+}
+footer .container .box4 .images .box3 i
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 18px;
+    color: white;
+}
+footer .container .box4 .images .box4 i
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 18px;
+    color: white;
+}
+footer .container .box4 .images .box5 i
+{
+    position: absolute;
+    bottom: 2px;
+    left: 104px;
+    font-size: 18px;
+    color: white;
+}
+footer .container .box4 .images .box6 i
+{
+    position: absolute;
+    bottom: 2px;
+    left: 206px;
+    font-size: 18px;
+    color: white;
+}
+
+
+footer .ctext
+{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+footer .ctext p
+{
+    font-family: montserrat;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    left: 38%;
+    top: 35px;
+}
