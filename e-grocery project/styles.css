@@ -1,0 +1,501 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+.main
+{
+    width: 100%;
+    height: 1500px;
+}
+.sidebar
+{
+    width: 20%;
+    height: 1500px;
+    background-color:white;
+    float: left;
+}
+.sidebar .watermalon
+{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(196, 255, 196);
+    padding: 5px;
+    margin: 25px 0px 0px 25px;
+    border-radius: 50%;
+}
+.sidebar h1
+{
+    color: black;
+    font-size: 25px;
+    margin: 0px 0px 0px 25px;
+}
+.sidebar .p1
+{
+    color: black;
+    font-size: 15px;
+    margin: 0px 0px 0px 25px;
+}
+.sidebar .p2
+{
+    color: green;
+    font-size: 15px;
+    margin: 5px 0px 0px 25px;
+}
+.sidebar .star
+{
+    width: 15px;
+    height: 15px;
+    margin: 5px 0px 0px 25px;
+}
+.sidebar .star1
+{
+    width: 15px;
+    height: 15px;
+    margin: 5px 0px 0px 0px;
+}
+.sidebar .star2
+{
+    width: 15px;
+    height: 15px;
+    margin: 5px 0px 0px 0px;
+}
+.sidebar .star3
+{
+    width: 15px;
+    height: 15px;
+    margin: 5px 0px 0px 0px;
+}
+.sidebar .star4
+{
+    width: 15px;
+    height: 15px;
+    margin: 5px 0px 0px 0px;
+}
+.sidebar .p3
+{
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+}
+.sidebar hr
+{
+    width: 90%;
+}
+.sidebar ul
+{
+    width: 90%;
+    padding-left: 25px;
+}
+.sidebar ul li
+{
+    list-style: none;
+    padding: 10px;
+    transition: 0.2s;
+    color: black;
+}
+.sidebar ul li:hover
+{
+    background-color: rgb(196, 255, 196);
+    border-radius: 5px;
+}
+.sidebar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.rightsidebar
+{
+    width: 80%;
+    height: 1500px;
+    float: right;
+}
+.banner
+{
+    width: 95%;
+    height: 175px;
+    margin: 20px 2.5% 0px 2.5%; 
+    background-color: rgb(196, 255, 196);
+    border-radius: 10px;
+}
+.banner .computer
+{
+    width: 175px;
+    height: 175px;
+    float: right;
+    margin: 0px 25px 0px 0px;
+}
+.banner .greybar1
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: -80px 20px 20px 20px;
+}
+.banner .greybar2
+{
+    width: 150px;
+    height: 200px;
+    float: right;
+    margin: -10px -120px 20px 20px;
+}
+.banner .greybar3
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 50px -250px 20px 0px;
+}
+.rightsidebar .banner h1
+{
+    color: black;
+    font-size: 25px;
+    float: left;
+    margin: 35px 0px 0px 25px;
+}
+.rightsidebar .banner p
+{
+    color: black;
+    font-size: 15px;
+    float: left;
+    margin: 10px 120px 0px 25px;
+}
+.rightsidebar .banner input
+{
+    color: black;
+    font-size: 15px;
+    width: 25%;
+    height: 30px;
+    text-indent: 10px;
+    float: left;
+    margin: 10px 120px 0px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.rightsidebar .banner i
+{
+    color: black;
+    font-size: 20px;
+    float: left;
+    margin: 14px 0px 0px -150px;
+}
+
+.rightsidebar .content
+{
+    width: 95%;
+    height: 1325px;
+    margin: 0px 2.5% 0px 2.5%; 
+    border-radius: 10px;
+}
+.rightsidebar .content .p1
+{
+    font-size: 15px;
+    float: left;
+    margin: 25px 0px 25px 25px;
+}
+.content a
+{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.content .p2
+{
+    font-size: 15px;
+    float: left;
+    width: 125px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: -11px 0px 0px 685px;
+}
+.content .p3
+{
+    font-size: 15px;
+    float: left;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: -45px 25px 20px 980px;
+}
+.content a:hover .submenu
+{
+    display: block;      
+}
+.content .submenu
+{
+    position: absolute;
+    top: 250px;
+    display: none;
+}
+.content .submenu .sublist
+{
+    list-style: none;
+    padding: 50px 0px 0px 0px;
+}
+.content .i1
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 0px 0px 0px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.content .i2
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 0px 0px 0px 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.content .i3
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 0px 0px 0px 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.content .i4
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin: 0px 25px 0px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.content .i5
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 35px 0px 0px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.content .i6
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 35px 0px 0px 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.content .i7
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 35px 0px 0px 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.content .i8
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin: 35px 25px 0px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.content .i9
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 35px 0px 0px 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.content .i10
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 35px 0px 0px 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.content .i1:hover
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 0px 0px 0px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.content .i2:hover
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 0px 0px 0px 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.content .i3:hover
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 0px 0px 0px 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.content .i4:hover
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin: 0px 25px 0px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.content .i5:hover
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 35px 0px 0px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.content .i6:hover
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 35px 0px 0px 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.content .i7:hover
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 35px 0px 0px 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.content .i8:hover
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/8.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin: 35px 25px 0px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.content .i9:hover
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 35px 0px 0px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.content .i10:hover
+{
+    width: 250px;
+    height: 300px;
+    background-image: url('images/10.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin: 35px 0px 0px 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
